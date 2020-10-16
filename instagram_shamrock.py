@@ -1,13 +1,13 @@
 from instapy import InstaPy
 from instapy.util import smart_run
-from secret import insta_username
-from secret import insta_password
+from secret import shamrock_username
+from secret import shamrock_password
 
 # login credentials
-# insta_username = insta_username
-# insta_password = insta_password
+# insta_username = shamrock_username
+# insta_password = shamrock_password
 
-session = InstaPy(username=insta_username, password=insta_password,
+session = InstaPy(username=shamrock_username, password=shamrock_password,
                   headless_browser=True, disable_image_load=True, multi_logs=True)
 
 with smart_run(session):
