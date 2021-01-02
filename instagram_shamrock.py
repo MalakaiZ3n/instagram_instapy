@@ -52,7 +52,7 @@ with smart_run(session):
                           "aerospace", "aerospaceindustry", "5axis", "mechanicalengineering"], amount=6)
 
     session.set_dont_like(["naked", "nsfw", "peach", "booty", "sneaker", "airforceone",
-                           "trump", "wood", "guitar", "decor", "challenge", "muzzle", "mexico", "france", ])
+                           "trump", "wood", "guitar", "decor", "challenge", "muzzle", "mexico", "france" ])
 
 
 session.end()
